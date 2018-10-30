@@ -1,0 +1,93 @@
+#container_city {
+	position: absolute;
+	z-index: 99;
+	display: none;
+	height: 0;
+}
+
+#container_city div {
+	display: block;
+	width: 380px;
+	height: auto;
+	background: #fff;
+	border: solid 1px #D5D5D5;
+	border-bottom: solid 2px #B3B3B3;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+
+#container_city div i {
+	font-style: normal;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	text-align: right;
+	padding-top: 5px;
+	background: #eee;
+}
+
+#container_city div i a {
+	font-size: 18px;
+	color: #a7a7a7;
+	font-family: 宋体;
+	padding: 5px;
+}
+
+#container_city div i a:hover {
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	font-family: 宋体;
+	padding: 5px;
+	background: #ED1C24;
+}
+
+#container_city div .city_tab {
+	display: block;
+	height: 25px;
+	background: #eee;
+}
+
+#container_city div .city_tab a {
+	padding: 5px 15px 5px 15px;
+	border-bottom: none;
+	color: #737373;
+	margin-right: 1px;
+}
+
+#container_city div .city_tab a.on,
+#container_city div .city_tab a:hover {
+	padding: 8px 15px 8px 15px;
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+}
+
+#container_city div .city_body {
+	display: none;
+	padding: 10px;
+}
+
+#container_city div .city_body a {
+	float: left;
+	padding: 5px 10px 5px 10px;
+	color: #737373;
+}
+
+#container_city div .city_body a.on,
+#container_city div .city_body a.on:hover {
+	float: left;
+	padding: 5px 10px 5px 10px;
+	background: #5DC366;
+	color: #fff;
+	text-decoration: none;
+}
+
+#container_city div .city_body a:hover {
+	float: left;
+	padding: 5px 10px 5px 10px;
+	background: #B4F0B9;
+	text-decoration: none;
+	color: #000;
+}

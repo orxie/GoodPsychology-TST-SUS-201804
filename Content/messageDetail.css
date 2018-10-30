@@ -1,0 +1,18 @@
+@charset "utf-8";
+.message-details > p {
+	text-indent: 2em;
+}
+.serial-number {
+	display: block;
+	
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	
+	background-color: #EEEEEE;
+	text-align: center;
+	margin: 10px 5px;
+}
+section{
+	font-size: 17px;
+}

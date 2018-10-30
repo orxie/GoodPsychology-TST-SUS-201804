@@ -1,0 +1,410 @@
+#typelist {
+	display: block;
+	padding: 1.2em 0;
+	border-bottom: solid 0px #eee;
+	height: 6em;
+}
+
+#typelist li {
+	display: block;
+	float: left;
+	width: 12%;
+	padding-bottom: .3em;
+}
+
+#typelist li a {
+	display: block;
+	text-align: center;
+	padding: .4em 0;
+	font-size: 1.5em;
+	width: 100%;
+}
+
+#typelist li a i {
+	font-size: .85em;
+	color: #000;
+	font-style: normal;
+}
+
+#typelist li a img {
+	width: 2.1em;
+	height: 2.1em;
+	display: block;
+	margin: 0 auto;
+}
+
+#typelist li a:hover {
+	display: block;
+	text-align: center;
+	padding: .4em 0;
+	font-size: 1.5em;
+	width: 100%;
+	text-decoration: none;
+}
+
+#typelist li a:hover i {
+	color: #279F32;
+	font-style: normal;
+}
+
+.htitle {
+	display: block;
+	padding: 1em 0 1.5em 0;
+	font-size: 2em;
+	color: #a7a7a7;
+	text-align: center;
+	font-weight: normal;
+}
+
+.title {
+	display: block;
+	padding: .5em 0;
+	font-size: 1.5em;
+	color: #000;
+}
+
+.title a {
+	font-size: 1.6em;
+	color: #414141;
+	font-weight: bold;
+}
+
+.title a:hover {
+	font-size: 1.6em;
+	color: #414141;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#cslist {
+	display: block;
+	width: 100%;
+	padding: 0 0 3em 0;
+}
+
+#cslist .item {
+	display: block;
+	float: left;
+	width: 32.15%;
+	height: auto;
+	padding: .5em .9em 1em 0;
+}
+
+#cslist .item a {
+	display: block;
+	margin: 0 auto;
+	width: 99%;
+	background: #f9f9f9;
+	border: solid 1px #eee;
+}
+
+#cslist .item a:hover {
+	display: block;
+	text-decoration: none;
+}
+
+#cslist .item a img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#cslist .item a span {
+	display: block;
+	padding: .5em 1em;
+}
+
+#cslist .item a span b {
+	display: block;
+	line-height: 1.6em;
+	font-size: 1.2em;
+	color: #414141;
+	padding-bottom: .2em;
+	height: 1.5em;
+	overflow: hidden;
+}
+
+#cslist .item a span .des {
+	display: block;
+	line-height: 1.4em;
+	font-size: .8em;
+	color: #a7a7a7;
+	font-style: normal;
+	height: 2.8em;
+	overflow: hidden;
+}
+
+#cslist .item a span .remark {
+	display: block;
+	line-height: 1.6em;
+	font-size: .7em;
+	color: #a7a7a7;
+	padding: .5em 0;
+	font-style: normal;
+}
+
+#cslist .item a span .remark .pay {
+	float: left;
+	color: #279F32;
+	font-style: normal;
+}
+
+#cslist .item a span .remark .re {
+	float: right;
+	padding-left: 1em;
+	color: #a7a7a7;
+	font-style: normal;
+}
+
+#cslist .load {
+	color: #a7a7a7;
+	text-align: center;
+	font-size: 1em;
+	padding: 2em 0;
+	clear: both;
+}
+
+#cslist .load img {
+	margin-right: .5em;
+	position: relative;
+	top: .2em;
+}
+
+.cslist {
+	display: block;
+	width: 100%;
+	padding: 0 0 3em 0;
+}
+
+.cslist .item {
+	display: block;
+	float: left;
+	width: 32.15%;
+	height: auto;
+	padding: .5em .9em 1em 0;
+}
+
+.cslist .item a {
+	display: block;
+	margin: 0 auto;
+	width: 99%;
+	background: #f9f9f9;
+	border: solid 1px #eee;
+}
+
+.cslist .item a:hover {
+	display: block;
+	text-decoration: none;
+}
+
+.cslist .item a img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.cslist .item a span {
+	display: block;
+	padding: .5em 1em;
+}
+
+.cslist .item a span b {
+	display: block;
+	line-height: 1.6em;
+	font-size: 1.2em;
+	color: #414141;
+	padding-bottom: .2em;
+	height: 1.5em;
+	overflow: hidden;
+}
+
+.cslist .item a span .des {
+	display: block;
+	line-height: 1.4em;
+	font-size: .8em;
+	color: #a7a7a7;
+	font-style: normal;
+	height: 2.8em;
+	overflow: hidden;
+}
+
+.cslist .item a span .remark {
+	display: block;
+	line-height: 1.6em;
+	font-size: .7em;
+	color: #a7a7a7;
+	padding: .5em 0;
+	font-style: normal;
+}
+
+.cslist .item a span .remark .pay {
+	float: left;
+	color: #279F32;
+	font-style: normal;
+}
+
+.cslist .item a span .remark .re {
+	float: right;
+	padding-left: 1em;
+	color: #a7a7a7;
+	font-style: normal;
+}
+
+.cslist .more {
+	display: block;
+	clear: both;
+}
+
+.cslist .more a {
+	display: block;
+	padding: .6em 0;
+	text-align: center;
+	font-size: 1.3em;
+	color: #737373;
+	background: #f9f9f9;
+	border-radius: 100em;
+	border: solid 1px #eee;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.cslist .more a:hover {
+	display: block;
+	padding: .6em 0;
+	text-align: center;
+	font-size: 1.3em;
+	color: #000;
+	background: #f0f0f0;
+	border-radius: 100em;
+	border: solid 1px #e0e0e0;
+	width: 90%;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+.left {
+	display: block;
+	float: left;
+	width: 68%;
+	height: auto;
+	padding-right: 2em;
+}
+
+.right {
+	display: block;
+	float: right;
+	width: 29%;
+	height: auto;
+	background: #f9f9f9;
+}
+
+.h-tit-r {
+	background: none;
+}
+
+.htit {
+	display: block;
+	border-left: solid .5em #4BC956;
+	padding: 0 1.5em 0 1em;
+	font-size: .8em;
+	color: #737373;
+}
+
+.r-htit {
+	display: block;
+	padding: 0 0 1.5em 1.2em;
+	color: #414141;
+	font-size: 1.2em;
+}
+
+.hotcslist {
+	display: block;
+	padding-left: 1.5em;
+	width: 100%;
+}
+
+.hotcslist li {
+	display: block;
+	width: 90%;
+	height: 11em;
+	overflow: hidden;
+}
+
+.hotcslist li a img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.hotcslist li a i {
+	position: relative;
+	display: block;
+	background: #000;
+	color: #fff;
+	font-size: 1em;
+	padding: .8em;
+	width: auto;
+	top: -3.1em;
+	font-style: normal;
+	text-align: right;
+	background: linear-gradient(bottom, rgba(0, 0, 0, 0.65098) 4%, rgba(0, 0, 0, 0) 99%);
+	background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.65098) 4%, rgba(0, 0, 0, 0) 99%);
+	background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.65098) 4%, rgba(0, 0, 0, 0) 99%);
+	background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.65098) 4%, rgba(0, 0, 0, 0) 99%);
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.65098) 4%, rgba(0, 0, 0, 0) 99%);
+}
+
+.hotcslist li a:hover {
+	text-decoration: none;
+}
+
+.cpcode {
+	display: block;
+	padding-left: 1.5em;
+}
+
+.cpcode img {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+	display: block;
+}
+
+.cpcode i {
+	font-style: normal;
+	display: block;
+	font-size: 1em;
+	color: #737373;
+	text-align: center;
+	padding: 1em 0;
+}
+
+body,
+#menu .item a.on,
+#menu .item a.on:hover {
+	background: #fff;
+}
+
+.bg5,
+#menu .item ul,
+#menu .item ul li {
+	background: #eee;
+}
+
+#menu .item ul li a:hover {
+	background: #f9f9f9;
+}
+
+#menu .item a:hover {
+	color: #000;
+	background: #fff;
+}
+
+.pdline {
+	display: block;
+	padding: 5em 0 0 0;
+}
+
+a:hover {
+	text-decoration: none;
+}

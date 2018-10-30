@@ -1,0 +1,174 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+
+    <%--可选，用于覆盖bootstrap之前的样式--%>
+    <asp:ContentPlaceHolder ID="BeforeQuoteContent" runat="server"></asp:ContentPlaceHolder>
+
+
+    <%--标题--%>
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+</head>
+<body class="BodyColor">
+    <nav class="bgColor bg-primary visible-md visible-lg" role="navigation">
+        <div class="container">
+            <div class="rows bgColor">
+                <!-- 左侧导航 -->
+                <ul class="nav navbar-nav self-color-w">
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>导航
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">
+                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>手机版
+                        </a>
+                    </li>
+                </ul>
+                <!-- 右侧导航 -->
+                <ul class="nav navbar-nav navbar-right self-color-w">
+                    <li>
+                        <a href="<%=Url.Content("~/Login/Index") %>">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span><%=Session["CurrentUser"]!=null?Session["CurrentUser"].ToString():"登录" %>
+                        </a>
+                    </li>
+                    <!-- 注册 -->
+                    <li>
+                        <a href="<%=Url.Content("~/Signup/Index") %>">
+                            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>注册
+                        </a>
+                    </li>
+                </ul>
+                <!-- 搜索框 -->
+                <div class="navbar-form navbar-right form-inline center-block">
+                    <div class="input-group">
+                        <!-- 输入框 -->
+                        <input type="text" class="form-control" placeholder="请输入搜索内容">
+                        <!-- 按钮 -->
+                        <span class="input-group-btn">
+                            <button type="submit" class="btn btn-info">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-bg" style="border-bottom: 1px solid #eee;">
+        <div class="container">
+            <div class="navbar-header nav-title hidden-md hidden-lg">
+                <button type="button" class="navbar-toggle collapsed nav-button-bgcolor" data-toggle="collapse" data-target="#nav-all" aria-expanded="false">
+                    <span class="sr-only">导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="javascript:void(0);" class="navbar-brand nav-brand-color">心理佳</a>
+            </div>
+            <div class="row collapse navbar-collapse" id="nav-all">
+                <div class="navbar-left hidden-sm hidden-xs" style="padding: 20px 0;">
+                    <img src="<%=Url.Content("~/img/logo.gif") %>" style="width:267px;height:67px" alt="logo">
+                </div>
+
+                <nav class="navbar-right self-margin">
+                    <ul class="nav navbar-nav self-color-b">
+                        <li role="presentation" id="Home">
+                            <a href="<%=Url.Content("~/Home/Index") %>">首页</a>
+                        </li>
+                        <li role="presentation" id="Evaluation">
+                            <a href="<%=Url.Content("~/Evaluation/Index") %>">心理测评</a>
+                        </li>
+                        <li role="presentation" id="Refer">
+                            <a href="<%=Url.Content("~/Refer/Index") %>">心理咨询</a>
+                        </li>
+                        <li role="presentation" id="Message">
+                            <a href="<%=Url.Content("~/Message/Index") %>">好文推送</a>
+                        </li>
+                        <li role="presentation" id="Radio">
+                            <a href="<%=Url.Content("~/Radio/Index") %>">减压电台</a>
+                        </li>
+                        <li role="presentation" id="Course">
+                            <a href="<%=Url.Content("~/Course/Index") %>">心路历程</a>
+                        </li>
+                        <li role="presentation" id="Video">
+                            <a href="<%=Url.Content("~/Video/Index") %>">在线视频</a>
+                        </li>
+                    </ul>
+                </nav>
+               
+               
+            </div>
+        </div>
+    </div>
+    <%--内容--%>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- footer -->
+    <footer class="content-block" style="background: #f0f0f0; height: 200px;">
+        <div class="container footer-padding">
+            <div class="row">
+                <div class="center-block">
+                    <ul class="col-md-3">
+                        <li>
+                            <h4><b>我是用户</b></h4>
+                        </li>
+                        <li>免费注册</li>
+                        <li>初次咨询必读</li>
+                        <li>预约流程</li>
+                        <li>快速咨询</li>
+                        <li>更多常见问题</li>
+                    </ul>
+                    <ul class="col-md-3">
+                        <li>
+                            <h4><b>我是咨询师</b></h4>
+                        </li>
+                        <li>咨询师入驻</li>
+                        <li>咨询师国家职业标准</li>
+                        <li>咨询工作流程</li>
+                        <li>咨询师指南</li>
+                    </ul>
+                    <ul class="col-md-3">
+                        <li>
+                            <h4><b>关于</b></h4>
+                        </li>
+                        <li>介绍</li>
+                        <li>联系我们</li>
+                        <li>法律生命</li>
+                        <li>网站地图</li>
+                        <li>公益&amp;活动</li>
+                    </ul>
+                    <ul class="col-md-3">
+                        <li>
+                            <h4><b>手机</b></h4>
+                        </li>
+                        <li>微信扫码，您身边的心理专家</li>
+                         <li>
+						    <img src="<%=Url.Content("~/img/logo.png") %>" style="width:40%;height:40%" alt="微信公众：心理佳">
+					    </li> 
+                    </ul>
+                </div>
+                <!-- 版权信息 -->
+                <div class="footer-info" style="display: block; clear: both;">
+                    <a href="javascript:void(0);">蜀ICP备17000216号-1</a>
+                    <i>&copy;&nbsp;2017-2018&nbsp;XinLiJia.CN&nbsp;版权所有</i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <%--可选，尾部的脚本--%>
+    <asp:ContentPlaceHolder ID="ScriptContent" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>

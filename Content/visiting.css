@@ -1,0 +1,79 @@
+#visiting {
+	display: block;
+	width: 273px;
+	padding: 15px;
+	color: #a7a7a7;
+}
+
+#visiting li {
+	padding: 8px 5px 8px 5px;
+	line-height: 23px;
+}
+
+#visiting li a {
+	color: #414141;
+}
+
+#visiting li a.un {
+	color: #a7a7a7;
+}
+
+#visiting li a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+#visiting li a img {
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	border-radius: 100px;
+}
+
+#visiting li a.game img {
+	vertical-align: middle;
+	border-radius: 4px;
+}
+
+#visiting li span {
+	padding-left: 10px;
+}
+
+#visiting #visittit {
+	display: block;
+	height: 25px;
+	padding-bottom: 8px;
+}
+
+#visiting #visittit label {
+	font-weight: bold;
+	float: left;
+	display: block;
+	font-size: 15px;
+	color: #414141;
+}
+
+#visiting li a.refresh {
+	color: #a7a7a7;
+	float: right;
+	background-image: url(https://res.XLJ.CN/pc/res/images/common/refresh_icon.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 16px;
+	display: block;
+}
+
+#visiting #visittit a:hover {
+	text-decoration: underline;
+}
+
+#visiting li a .img_avatar_least {
+	margin-right: 5px;
+}
+
+#visiting #loadvisting {
+	border: none;
+	padding: 0;
+	margin: 0;
+}

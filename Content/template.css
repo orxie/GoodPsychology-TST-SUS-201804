@@ -1,0 +1,149 @@
+.fam-template-box {
+	float: left;
+	display: block;
+	background: #F0F0F0;
+	width: 300px;
+	height: 70px;
+	overflow: hidden;
+	background-position: left top;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border-radius: 6px;
+	margin-left: 8px;
+}
+
+.fam-template-box .avatar {
+	float: left;
+	display: block;
+	padding: 5px;
+}
+
+.fam-template-box .avatar img {
+	border-radius: 100px;
+	background: #fff;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.fam-template-body {
+	display: block;
+	float: left;
+	width: 225px;
+	overflow: hidden;
+	padding: 10px 5px 10px 0;
+	line-height: normal;
+}
+
+.fam-template-body b {
+	font-size: 16px;
+	display: block;
+	font-family: 微软雅黑;
+	width: 230px;
+	height: 23px;
+	line-height: 23px;
+	overflow: hidden;
+}
+
+.fam-template-body i {
+	display: block;
+	font-size: 13px;
+	font-style: normal;
+	text-align: center;
+	padding-top: 8px;
+	color: #FFFDE7;
+}
+
+.fam-template-body2 {
+	display: block;
+	float: left;
+	width: 225px;
+	overflow: hidden;
+	padding: 10px 5px 10px 0;
+	line-height: normal;
+}
+
+.fam-template-body2 b {
+	font-size: 24px;
+	display: block;
+	font-family: 微软雅黑;
+	width: 78px;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+	float: left;
+}
+
+.fam-template-body2 em {
+	font-size: 12px;
+	display: block;
+	font-family: 微软雅黑;
+	width: 147px;
+	height: 30px;
+	line-height: 15px;
+	overflow: hidden;
+	float: left;
+	font-style: normal;
+}
+
+.fam-template-body2 i {
+	display: block;
+	font-size: 13px;
+	font-style: normal;
+	padding-top: 2px;
+	color: #FFFDE7;
+	clear: both;
+	padding-left: 5px;
+}
+
+.city_fam {
+	float: right;
+	display: block;
+	width: 624px;
+	_width: 628px;
+	height: 75px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.city_fam a {
+	display: block;
+	width: 300px;
+	height: 70px;
+	line-height: 60px;
+	background: #F0F0F0;
+	border: solid 1px #ECECEC;
+	margin-left: 8px;
+	float: left;
+	border-radius: 6px;
+	font-size: 12px;
+	color: #AEAEAE;
+	text-align: center;
+	font-family: 宋体;
+	overflow: hidden;
+}
+
+.city_fam a:hover {
+	display: block;
+	width: 300px;
+	height: 70px;
+	line-height: 60px;
+	background: #F4F4F4;
+	border: solid 1px #ECECEC;
+	margin-left: 8px;
+	float: left;
+	border-radius: 6px;
+	font-size: 12px;
+	color: #AEAEAE;
+	text-align: center;
+	font-family: 宋体;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.city_fam a i {
+	font-style: normal;
+	display: block;
+	position: relative;
+	top: -40px;
+}

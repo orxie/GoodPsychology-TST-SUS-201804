@@ -1,0 +1,1958 @@
+﻿@charset "UTF-8";
+
+body {
+    background-color: #e9e9e9;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover, a:active, a:visited, a:active {
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #be1a21;
+    }
+
+.nav {
+    border-bottom: solid 0 #e1e1e1;
+    margin-bottom: 10px;
+}
+
+    .nav .nav_content {
+        width: 1170px;
+        height: 49px;
+        line-height: 47px;
+        margin: 0 auto;
+    }
+
+        .nav .nav_content li {
+            float: left;
+            margin-right: 34px;
+            list-style: none;
+            line-height: 44px;
+            top: 4px;
+            position: relative;
+        }
+
+            .nav .nav_content li a {
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+        .nav .nav_content .active {
+            border-bottom: 2px solid #dc3c00;
+            position: relative;
+            top: 4px;
+            line-height: 44px;
+        }
+
+        .nav .nav_content li:hover {
+            border-bottom: 2px solid #dc3c00;
+            position: relative;
+            top: 4px;
+            line-height: 44px;
+        }
+
+.btn-default {
+    color: #333;
+}
+
+.csdn-toolbar .container {
+    width: 1170px;
+    font-family: 'microsoft yahei';
+}
+
+.err {
+    background: #fff0f0;
+    position: fixed;
+    border-top: 1px solid #ffd2d2;
+    border-bottom: 1px solid #ffd2d2;
+    font-size: 12px;
+    width: 1170px;
+    height: 28px;
+    line-height: 28px;
+    left: 50%;
+    margin-left: -585px;
+    top: 0;
+    text-align: left;
+    padding-left: 5px;
+    z-index: 5000;
+}
+
+    .err i {
+        color: #dc3c00;
+        margin-right: 6px;
+        font-size: 16px;
+    }
+
+    .err em {
+        font-style: normal;
+        color: #b74d46;
+    }
+
+.common_con {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+}
+
+.main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+    .main .persional_property {
+        clear: both;
+    }
+
+        .main .persional_property .second_nav_con {
+            margin: 0 auto 10px;
+            width: 1170px;
+            height: 48px;
+            background: #fff;
+            border: 1px solid #f0f0f0;
+            overflow: hidden;
+        }
+
+            .main .persional_property .second_nav_con .second_nav {
+                float: left;
+                margin: 0;
+                width: 700px;
+            }
+
+                .main .persional_property .second_nav_con .second_nav dd {
+                    float: left;
+                    padding: 0 30px;
+                    border-right: 1px solid #f0f0f0;
+                    font-size: 16px;
+                    line-height: 48px;
+                    position: relative;
+                }
+
+                    .main .persional_property .second_nav_con .second_nav dd .icon-circle {
+                        position: absolute;
+                        font-size: 6px;
+                        right: 18px;
+                        top: 6px;
+                        color: #c00;
+                    }
+
+                    .main .persional_property .second_nav_con .second_nav dd a {
+                        color: #666;
+                    }
+
+                    .main .persional_property .second_nav_con .second_nav dd.active {
+                        background: #64b1cb;
+                    }
+
+                        .main .persional_property .second_nav_con .second_nav dd.active a {
+                            color: #fff;
+                            font-size: 18px;
+                        }
+
+            .main .persional_property .second_nav_con .second_tips {
+                float: right;
+                margin: 0;
+                margin-right: 20px;
+                font-size: 14px;
+            }
+
+                .main .persional_property .second_nav_con .second_tips dd {
+                    float: left;
+                    line-height: 48px;
+                    height: 48px;
+                }
+
+                    .main .persional_property .second_nav_con .second_tips dd.ask_tips {
+                        margin-right: 20px;
+                        padding-right: 20px;
+                        border-right: 1px solid #f0f0f0;
+                    }
+
+                        .main .persional_property .second_nav_con .second_tips dd.ask_tips .ask_tips_box {
+                            margin-top: 7px;
+                            width: 100px;
+                            height: 33px;
+                            text-align: center;
+                            line-height: 33px;
+                            background: #64b1cb;
+                            font-size: 16px;
+                            color: #fff;
+                            display: block;
+                        }
+
+                            .main .persional_property .second_nav_con .second_tips dd.ask_tips .ask_tips_box:hover {
+                                text-decoration: none;
+                            }
+
+                            .main .persional_property .second_nav_con .second_tips dd.ask_tips .ask_tips_box .icon-plus {
+                                margin-right: 3px;
+                            }
+
+                    .main .persional_property .second_nav_con .second_tips dd .icon-double-angle-right {
+                        font-size: 14px;
+                        padding-left: 5px;
+                    }
+
+                    .main .persional_property .second_nav_con .second_tips dd a {
+                        color: #2b81a9;
+                    }
+
+    .main .persion_section,
+    .main .persion_article {
+        float: left;
+    }
+
+    .main .persion_section {
+        width: 860px;
+        margin-right: 9px;
+    }
+
+        .main .persion_section .aboutMe {
+            background: #fff;
+            padding: 0 20px 28px;
+            border: 1px solid #f0f0f0;
+            border-top: none;
+        }
+
+            .main .persion_section .aboutMe .myNews,
+            .main .persion_section .aboutMe .myConnection {
+                padding-top: 20px;
+            }
+
+            .main .persion_section .aboutMe .current_content {
+                display: block;
+            }
+
+            .main .persion_section .aboutMe .non_current_content {
+                display: none;
+            }
+
+    .main .persion_article {
+        width: 300px;
+    }
+
+        .main .persion_article .mod_my_achievement {
+            margin-bottom: 10px;
+        }
+
+            .main .persion_article .mod_my_achievement .my_achievement {
+                border: 1px solid #f0f0f0;
+                background: #fff;
+            }
+
+                .main .persion_article .mod_my_achievement .my_achievement .achievement {
+                    height: 44px;
+                    color: #333;
+                    border-bottom: 1px solid #f0f0f0;
+                    text-indent: 19px;
+                }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .achievement h3 {
+                        padding: 0;
+                        margin: 0;
+                        font-size: 18px;
+                        line-height: 44px;
+                        font-weight: normal;
+                    }
+
+                .main .persion_article .mod_my_achievement .my_achievement .my_info .img {
+                    float: left;
+                    padding: 0 20px;
+                }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_info .img img {
+                        border: 1px solid #f0f0f0;
+                    }
+
+                .main .persion_article .mod_my_achievement .my_achievement .my_info dt {
+                    font-size: 16px;
+                    color: #666;
+                    font-weight: normal;
+                }
+
+                .main .persion_article .mod_my_achievement .my_achievement .my_info dd {
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: #999;
+                    overflow: hidden;
+                }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_info dd span {
+                        color: #e96f5d;
+                    }
+
+                .main .persion_article .mod_my_achievement .my_achievement .my_progress {
+                    margin-bottom: 60px;
+                    padding: 0 20px;
+                }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_progress .tips_Tips {
+                        margin-bottom: 2px;
+                        overflow: hidden;
+                    }
+
+                        .main .persion_article .mod_my_achievement .my_achievement .my_progress .tips_Tips .left_first {
+                            float: left;
+                        }
+
+                        .main .persion_article .mod_my_achievement .my_achievement .my_progress .tips_Tips .right_last {
+                            float: right;
+                        }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_progress .progress {
+                        height: 6px;
+                        border-radius: 5px;
+                        overflow: visible;
+                    }
+
+                        .main .persion_article .mod_my_achievement .my_achievement .my_progress .progress .progress-bar-info {
+                            background: #1abc9c;
+                        }
+
+                        .main .persion_article .mod_my_achievement .my_achievement .my_progress .progress .progress-bar {
+                            border-radius: 5px;
+                        }
+
+                            .main .persion_article .mod_my_achievement .my_achievement .my_progress .progress .progress-bar .sr {
+                                width: 13px;
+                                height: 13px;
+                                border-radius: 50%;
+                                margin-top: -4px;
+                                margin-right: -1px;
+                                float: right;
+                                display: inline-block;
+                                position: relative;
+                            }
+
+                                .main .persion_article .mod_my_achievement .my_achievement .my_progress .progress .progress-bar .sr .popover {
+                                    display: block;
+                                    box-shadow: none;
+                                }
+
+                                .main .persion_article .mod_my_achievement .my_achievement .my_progress .progress .progress-bar .sr .danger {
+                                    padding: 0 5px;
+                                    left: -10px;
+                                    top: 15px;
+                                    border-radius: 5px;
+                                }
+
+                                    .main .persion_article .mod_my_achievement .my_achievement .my_progress .progress .progress-bar .sr .danger .popover-content {
+                                        margin-top: -3px;
+                                        padding: 2px 4px;
+                                        width: auto;
+                                    }
+
+                                        .main .persion_article .mod_my_achievement .my_achievement .my_progress .progress .progress-bar .sr .danger .popover-content p {
+                                            color: #333;
+                                            font-size: 12px;
+                                            margin-top: 2px;
+                                        }
+
+                .main .persion_article .mod_my_achievement .my_achievement .my_ask_info {
+                    margin-bottom: 20px;
+                    padding: 0 20px;
+                }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .icon-A,
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .icon-B,
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .icon-C,
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .icon-D,
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .icon-E {
+                        margin-right: 5px;
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 3px;
+                        background: #9fd468;
+                        font-family: '΢���ź�';
+                        font-weight: normal;
+                        color: #fff;
+                        font-size: 14px;
+                        text-align: center;
+                        line-height: 18px;
+                    }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .icon-B {
+                        background: #f9af57;
+                    }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .icon-C {
+                        background: #64b1cb;
+                    }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .icon-D {
+                        background: #cb89ae;
+                    }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .icon-E {
+                        background: #eb6e53;
+                    }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .ask_answer {
+                        display: inline-block;
+                    }
+
+                        .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .ask_answer span {
+                            color: #2b81a9;
+                            display: inline-block;
+                            margin: 0 3px;
+                        }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_ask_info .br {
+                        height: 15px;
+                    }
+
+                .main .persion_article .mod_my_achievement .my_achievement .my_specialty {
+                    margin: 0 0 20px;
+                    border-top: 1px solid #f0f0f0;
+                    font-size: 14px;
+                }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_specialty h5 {
+                        height: 18px;
+                        line-height: 18px;
+                        margin: 20px 0;
+                        padding-left: 20px;
+                        font-size: 16px;
+                        color: #333;
+                    }
+
+                    .main .persion_article .mod_my_achievement .my_achievement .my_specialty span {
+                        color: #666;
+                        display: inline-block;
+                        margin-left: 20px;
+                        font-size: 14px;
+                    }
+
+                        .main .persion_article .mod_my_achievement .my_achievement .my_specialty span a {
+                            color: #2b81a9;
+                        }
+
+        .main .persion_article .mod_technology_hot_person {
+            margin-bottom: 10px;
+        }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person {
+                width: 298px;
+                border: 1px solid #f0f0f0;
+                background: #fff;
+            }
+
+                .main .persion_article .mod_technology_hot_person .technology_hot_person .technology_hot {
+                    overflow: hidden;
+                    border-bottom: 1px solid #f0f0f0;
+                }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .technology_hot h3 {
+                        float: left;
+                        height: 44px;
+                        line-height: 44px;
+                        font-size: 18px;
+                        color: #333;
+                        font-family: 'microsoft yahei';
+                        padding: 0;
+                        margin: 0;
+                        text-indent: 19px;
+                        font-weight: normal;
+                    }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .technology_hot a {
+                        float: right;
+                        margin-right: 20px;
+                        line-height: 44px;
+                        color: #666;
+                        font-size: 12px;
+                        text-decoration: none;
+                    }
+
+                .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list {
+                    margin: 0;
+                    padding: 20px;
+                    position: relative;
+                    border-bottom: 1px solid #f0f0f0;
+                }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .img {
+                        float: left;
+                        margin-right: 18px;
+                        margin-top: 4px;
+                    }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list dt {
+                        margin-bottom: 0;
+                        font-size: 14px;
+                        font-weight: normal;
+                    }
+
+                        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list dt a {
+                            color: #428bca;
+                            font-weight: normal;
+                        }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list dd {
+                        color: #999;
+                        font-size: 12px;
+                        line-height: 20px;
+                        word-break: break-all;
+                        word-wrap: break-word;
+                        position: relative;
+                    }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotBtn,
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotTime {
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                    }
+
+                        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotBtn i,
+                        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotTime i {
+                            margin-right: 5px;
+                        }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotTime {
+                        color: #999;
+                    }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn {
+                        position: absolute;
+                        top: -30px;
+                        right: 20px;
+                        width: 55px;
+                        height: 22px;
+                        line-height: 22px;
+                        display: block;
+                        background-color: #e96f5d;
+                        float: left;
+                        text-decoration: none;
+                    }
+
+                        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn span {
+                            line-height: 22px;
+                            display: block;
+                            font-size: 12px;
+                            color: #fff;
+                            text-align: center;
+                            font-family: 'microsoft yahei';
+                        }
+
+                        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn .icon-plus {
+                            padding-right: 0;
+                            color: #e96f5d;
+                        }
+
+                        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn strong {
+                            display: none;
+                            background-color: #c7c7c7;
+                            line-height: 22px;
+                            font-size: 12px;
+                            color: #fff;
+                            text-align: center;
+                            font-family: 'microsoft yahei';
+                        }
+
+                        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn b {
+                            display: none;
+                            background-color: #9e9e9e;
+                            line-height: 22px;
+                            font-size: 12px;
+                            color: #fff;
+                            text-align: center;
+                            font-family: 'microsoft yahei';
+                            font-weight: normal;
+                        }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel span {
+                        display: none;
+                    }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel strong {
+                        display: block;
+                    }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel:hover span {
+                        display: none;
+                    }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel:hover strong {
+                        display: none;
+                    }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel:hover b {
+                        display: block;
+                    }
+
+                .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box {
+                    padding: 20px;
+                    font-size: 14px;
+                    color: #999;
+                }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_text {
+                        margin-bottom: 20px;
+                    }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_btn {
+                        margin-bottom: 10px;
+                    }
+
+                        .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_btn button {
+                            background: #a0d569;
+                        }
+
+                    .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_info {
+                        text-align: right;
+                        overflow: hidden;
+                    }
+
+                        .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_info a {
+                            color: #2b81a9;
+                        }
+
+        .main .persion_article .mod_glory_info {
+            margin-bottom: 10px;
+        }
+
+            .main .persion_article .mod_glory_info .glory_info {
+                border: 1px solid #f0f0f0;
+                background: #fff;
+            }
+
+                .main .persion_article .mod_glory_info .glory_info h3 {
+                    padding-left: 30px;
+                    height: 44px;
+                    line-height: 44px;
+                    font-size: 18px;
+                    color: #333;
+                    font-family: 'microsoft yahei';
+                    padding: 0;
+                    margin: 0;
+                    text-indent: 32px;
+                    font-weight: normal;
+                    overflow: hidden;
+                    border-bottom: 1px solid #f0f0f0;
+                }
+
+                .main .persion_article .mod_glory_info .glory_info .info_box {
+                    padding: 20px;
+                    font-size: 14px;
+                    color: #999;
+                }
+
+                    .main .persion_article .mod_glory_info .glory_info .info_box .info_text {
+                        margin-bottom: 20px;
+                    }
+
+                    .main .persion_article .mod_glory_info .glory_info .info_box .info_info .row {
+                        margin: 0;
+                        padding: 0;
+                        width: 280px;
+                    }
+
+                    .main .persion_article .mod_glory_info .glory_info .info_box .info_info a {
+                        margin-right: 10px;
+                        margin-bottom: 20px;
+                        display: inline-block;
+                        font-size: 14px;
+                        color: #2b81a9;
+                    }
+
+                        .main .persion_article .mod_glory_info .glory_info .info_box .info_info a img {
+                            width: 40px;
+                            height: 40px;
+                        }
+
+        .main .persion_article .mod_answer_ing {
+            margin-bottom: 10px;
+        }
+
+            .main .persion_article .mod_answer_ing .mod_answer {
+                border: 1px solid #f0f0f0;
+                background: #fff;
+            }
+
+                .main .persion_article .mod_answer_ing .mod_answer h3 {
+                    height: 44px;
+                    line-height: 44px;
+                    font-size: 18px;
+                    color: #333;
+                    font-family: 'microsoft yahei';
+                    padding: 0;
+                    margin: 0;
+                    text-indent: 19px;
+                    font-weight: normal;
+                    overflow: hidden;
+                    border-bottom: 1px solid #f0f0f0;
+                }
+
+                    .main .persion_article .mod_answer_ing .mod_answer h3 .apply_teacher {
+                        float: right;
+                        font-size: 14px;
+                        color: #2b81a9;
+                        display: inline-block;
+                        margin-right: 20px;
+                    }
+
+                        .main .persion_article .mod_answer_ing .mod_answer h3 .apply_teacher:hover {
+                            text-decoration: none;
+                        }
+
+                .main .persion_article .mod_answer_ing .mod_answer #scrolldiv {
+                    overflow: hidden;
+                    max-height: 389px;
+                }
+
+                    .main .persion_article .mod_answer_ing .mod_answer #scrolldiv .scrollcontent {
+                        overflow: hidden;
+                        width: 255px;
+                    }
+
+                        .main .persion_article .mod_answer_ing .mod_answer #scrolldiv .scrollcontent .user_name {
+                            color: #428bca;
+                            padding-right: 3px;
+                        }
+
+                        .main .persion_article .mod_answer_ing .mod_answer #scrolldiv .scrollcontent dd {
+                            color: #999;
+                            float: left;
+                            width: 184px;
+                        }
+
+                        .main .persion_article .mod_answer_ing .mod_answer #scrolldiv .scrollcontent a {
+                            color: #428bca;
+                        }
+
+                        .main .persion_article .mod_answer_ing .mod_answer #scrolldiv .scrollcontent .mod_dl_a {
+                            color: #666;
+                        }
+
+                .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box {
+                    padding: 0 20px;
+                }
+
+                    .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box {
+                        margin: 0;
+                        padding: 10px 0;
+                        font-size: 14px;
+                        color: #999;
+                        border-bottom: 1px solid #f0f0f0;
+                    }
+
+                        .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box:last-child {
+                            border-bottom: none;
+                        }
+
+                        .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box dt {
+                            float: left;
+                        }
+
+                            .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box dt img {
+                                border-radius: 50%;
+                            }
+
+                        .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box dd {
+                            display: inline-block;
+                            line-height: 24px;
+                            word-break: break-all;
+                        }
+
+                            /*.main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box .mod_dl_dd{
+    display: inline-block;
+}*/
+                            .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box dd .mod_dl_a {
+                                color: #666;
+                            }
+
+                                .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box dd .mod_dl_a:hover {
+                                    color: #cc1a21;
+                                }
+
+                        .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box .mod_dl_dd {
+                            position: relative;
+                        }
+
+                        /*.main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box .mod_dl_dd:after{
+    display: none;
+    content:"...";
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    padding:0 20px 1px 6px;
+    background: #fff;
+}*/
+                        /*2015-6-01*/
+                        .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box .dot {
+                            font-weight: bold;
+                            position: absolute;
+                            right: 0;
+                            bottom: 0;
+                            padding: 0 20px 1px 6px;
+                            background: #fff;
+                        }
+
+                    /*2015-5-29*/
+                    .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box_choose dd {
+                        display: inline-block;
+                    }
+
+                        .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box_choose dd:nth-child(3) {
+                            color: #666;
+                            display: inline-block;
+                        }
+
+                    .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box dt {
+                        display: inline-block;
+                    }
+
+                        .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box dt .img {
+                            margin-right: 10px;
+                        }
+
+                    .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box .mod_dl_dd_01 {
+                        position: relative;
+                    }
+
+                    /*.main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box .mod_dl_dd_01:after{
+    content:'...';
+    font-weight: bold;
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding:0 6px 1px 9px;
+    background: #fff;
+}*/
+                    .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box dd:nth-child(3) {
+                        color: #666;
+                    }
+
+                    .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box .info_box dd:nth-child(4) {
+                        color: #999;
+                    }
+
+                .main .persion_article .mod_answer_ing .mod_answer .mod_dl_box01 {
+                    max-height: 389px;
+                    overflow: hidden;
+                }
+
+        .main .persion_article .mod_offer_reward {
+            margin-bottom: 10px;
+        }
+
+            .main .persion_article .mod_offer_reward .offer_reward {
+                padding: 10px 20px;
+                border: 1px solid #f0f0f0;
+                background: #fff;
+                font-size: 18px;
+            }
+
+                .main .persion_article .mod_offer_reward .offer_reward .reward {
+                    margin-left: 10px;
+                    padding: 0 5px;
+                    position: relative;
+                    background: #c00;
+                    height: 22px;
+                    line-height: 22px;
+                    border-radius: 2px;
+                    text-align: center;
+                    overflow: hidden;
+                }
+
+                    .main .persion_article .mod_offer_reward .offer_reward .reward i {
+                        position: absolute;
+                        top: 5px;
+                        left: -3px;
+                        color: #c00;
+                    }
+
+                    .main .persion_article .mod_offer_reward .offer_reward .reward span {
+                        color: #fff;
+                        font-family: '����';
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+
+        .main .persion_article .mod_other_ask {
+            margin-bottom: 10px;
+        }
+
+            .main .persion_article .mod_other_ask .other_ask {
+                border: 1px solid #f0f0f0;
+                background: #fff;
+            }
+
+                .main .persion_article .mod_other_ask .other_ask h3 {
+                    padding-left: 30px;
+                    height: 44px;
+                    line-height: 44px;
+                    font-size: 16px;
+                    color: #333;
+                    font-family: 'microsoft yahei';
+                    padding: 0;
+                    margin: 0;
+                    text-indent: 19px;
+                    font-weight: normal;
+                    overflow: hidden;
+                    border-bottom: 1px solid #f0f0f0;
+                }
+
+                .main .persion_article .mod_other_ask .other_ask .mod_dl_box {
+                    padding: 0 20px;
+                }
+
+                    .main .persion_article .mod_other_ask .other_ask .mod_dl_box .info_box {
+                        margin: 0;
+                        padding: 10px 0;
+                        font-size: 14px;
+                        color: #999;
+                        border-bottom: 1px solid #f0f0f0;
+                    }
+
+                        .main .persion_article .mod_other_ask .other_ask .mod_dl_box .info_box dt {
+                            float: left;
+                            margin-right: 10px;
+                            margin-top: 10px;
+                            width: 60px;
+                            overflow: hidden;
+                        }
+
+                            .main .persion_article .mod_other_ask .other_ask .mod_dl_box .info_box dt .hotBtn {
+                                font-size: 16px;
+                                font-family: Arial;
+                                font-weight: bold;
+                                line-height: 24px;
+                            }
+
+                                .main .persion_article .mod_other_ask .other_ask .mod_dl_box .info_box dt .hotBtn i {
+                                    margin-left: 3px;
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                }
+
+                        .main .persion_article .mod_other_ask .other_ask .mod_dl_box .info_box dd {
+                            height: 40px;
+                            line-height: 20px;
+                            overflow: hidden;
+                        }
+
+        .main .persion_article .mod_relevant_data {
+            margin-bottom: 10px;
+        }
+
+            .main .persion_article .mod_relevant_data .relevant_data {
+                border: 1px solid #f0f0f0;
+                background: #fff;
+            }
+
+                .main .persion_article .mod_relevant_data .relevant_data h3 {
+                    padding-left: 30px;
+                    height: 44px;
+                    line-height: 44px;
+                    font-size: 16px;
+                    color: #333;
+                    font-family: 'microsoft yahei';
+                    padding: 0;
+                    margin: 0;
+                    text-indent: 19px;
+                    font-weight: normal;
+                    overflow: hidden;
+                    border-bottom: 1px solid #f0f0f0;
+                }
+
+                .main .persion_article .mod_relevant_data .relevant_data .mod_dl_box {
+                    padding: 0 20px;
+                }
+
+                    .main .persion_article .mod_relevant_data .relevant_data .mod_dl_box .info_box {
+                        margin: 0;
+                        padding: 10px 0;
+                        font-size: 14px;
+                        color: #999;
+                    }
+
+                        .main .persion_article .mod_relevant_data .relevant_data .mod_dl_box .info_box dt {
+                            float: left;
+                            margin-right: 10px;
+                            overflow: hidden;
+                        }
+
+                            .main .persion_article .mod_relevant_data .relevant_data .mod_dl_box .info_box dt .hotBtn {
+                                width: 25px;
+                                height: 16px;
+                                background: url(//csdnimg.cn/release/ask/assets/icon-relevant-44fffcae8e60d00d3b83c81d507b362a.png) no-repeat;
+                            }
+
+                        .main .persion_article .mod_relevant_data .relevant_data .mod_dl_box .info_box dd {
+                            height: 18px;
+                            line-height: 18px;
+                            overflow: hidden;
+                        }
+
+        .main .persion_article .mod_user_info {
+            margin-bottom: 10px;
+        }
+
+            .main .persion_article .mod_user_info .user_info {
+                border: 1px solid #f0f0f0;
+                background: #fff;
+            }
+
+                .main .persion_article .mod_user_info .user_info .info_box {
+                    padding: 20px;
+                }
+
+                    .main .persion_article .mod_user_info .user_info .info_box .time_info {
+                        margin-bottom: 10px;
+                        color: #999;
+                        font-size: 12px;
+                    }
+
+                    .main .persion_article .mod_user_info .user_info .info_box .person_info .img {
+                        float: left;
+                        margin-right: 20px;
+                    }
+
+                        .main .persion_article .mod_user_info .user_info .info_box .person_info .img img {
+                            width: 60px;
+                            height: 60px;
+                        }
+
+                    .main .persion_article .mod_user_info .user_info .info_box .person_info dt {
+                        margin-bottom: 10px;
+                        font-size: 18px;
+                        font-family: 'Arail';
+                        color: #333;
+                    }
+
+                        .main .persion_article .mod_user_info .user_info .info_box .person_info dt img {
+                            margin-left: 5px;
+                        }
+
+                        .main .persion_article .mod_user_info .user_info .info_box .person_info dt .position {
+                            display: block;
+                            font-size: 12px;
+                            font-family: '΢���ź�';
+                        }
+
+                    .main .persion_article .mod_user_info .user_info .info_box .person_info dd {
+                        margin-right: 10px;
+                        float: left;
+                    }
+
+                        .main .persion_article .mod_user_info .user_info .info_box .person_info dd .sxBtn {
+                            background: #79b51f;
+                        }
+
+                        .main .persion_article .mod_user_info .user_info .info_box .person_info dd i {
+                            margin-right: 3px;
+                        }
+
+        .main .persion_article .mod_about_teacher {
+            margin-bottom: 10px;
+            background: #fff;
+            border: 1px solid #f0f0f0;
+        }
+
+            .main .persion_article .mod_about_teacher h3 {
+                position: relative;
+                margin: 0;
+                padding: 0;
+                height: 44px;
+                line-height: 44px;
+                border-bottom: 1px solid #f0f0f0;
+                text-indent: 20px;
+                font-size: 18px;
+                font-weight: normal;
+                color: #333;
+            }
+
+                .main .persion_article .mod_about_teacher h3 a {
+                    position: absolute;
+                    right: 23px;
+                    top: 20%;
+                    margin-top: -8px;
+                    font-size: 13px;
+                    color: #a6a9ac;
+                }
+
+            .main .persion_article .mod_about_teacher .answer_list {
+                padding: 0 20px;
+            }
+
+                .main .persion_article .mod_about_teacher .answer_list ul li {
+                    border-bottom: 1px solid #f0f0f0;
+                    line-height: 45px;
+                }
+
+                    .main .persion_article .mod_about_teacher .answer_list ul li:last-child {
+                        border-bottom: none;
+                    }
+
+                    .main .persion_article .mod_about_teacher .answer_list ul li span {
+                        margin-right: 8px;
+                        margin-top: 23px;
+                        width: 3px;
+                        height: 3px;
+                        background: #cfcfcf;
+                        display: block;
+                        float: left;
+                    }
+
+                    .main .persion_article .mod_about_teacher .answer_list ul li a {
+                        font-size: 14px;
+                        color: #666;
+                    }
+
+                .main .persion_article .mod_about_teacher .answer_list .info_btn {
+                    margin-bottom: 10px;
+                    padding: 20px 0 10px;
+                }
+
+                    .main .persion_article .mod_about_teacher .answer_list .info_btn button {
+                        border-radius: 10px;
+                        background: #a0d569;
+                    }
+
+                        .main .persion_article .mod_about_teacher .answer_list .info_btn button:hover {
+                            opacity: 0.9;
+                        }
+
+        .main .persion_article .mod_ask_btn {
+            margin-bottom: 10px;
+            background: #64b1cb;
+            font-size: 20px;
+            border-radius: 5px;
+            text-align: center;
+            color: #fff;
+            height: 40px;
+            line-height: 40px;
+            display: block;
+        }
+
+            .main .persion_article .mod_ask_btn i {
+                margin-right: 15px;
+            }
+
+    .main .help_peer_con {
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 0 0 8px #dcd8d8;
+        margin-bottom: 10px;
+    }
+
+        .main .help_peer_con h3 {
+            height: 57px;
+            margin: 0 20px;
+        }
+
+            .main .help_peer_con h3 span {
+                height: 57px;
+                float: left;
+                display: block;
+                line-height: 57px;
+                font-size: 16px;
+                color: #333;
+            }
+
+            .main .help_peer_con h3 a {
+                display: block;
+                width: 15px;
+                height: 14px;
+                background: url(//csdnimg.cn/release/ask/assets/shutoff_icon2-9b336bd0c925132c0529521036c7269c.png) center center no-repeat;
+                float: right;
+                margin-top: 24px;
+            }
+
+        .main .help_peer_con .question_wrap {
+            margin-left: -30px;
+        }
+
+            .main .help_peer_con .question_wrap .question_box {
+                width: 398px;
+                height: 50px;
+                overflow: hidden;
+                margin-left: 40px;
+                margin-bottom: 10px;
+                float: left;
+                border-bottom: 1px solid #f0f0f0;
+            }
+
+                .main .help_peer_con .question_wrap .question_box:last-child,
+                .main .help_peer_con .question_wrap .question_box:nth-child(5) {
+                    border-bottom: none;
+                }
+
+                .main .help_peer_con .question_wrap .question_box dl {
+                    width: 378px;
+                    height: 40px;
+                    float: left;
+                    margin: 10px 0 5px 10px;
+                }
+
+                    .main .help_peer_con .question_wrap .question_box dl dt {
+                        width: 30px;
+                        height: 30px;
+                        float: left;
+                        margin-right: 10px;
+                    }
+
+                    .main .help_peer_con .question_wrap .question_box dl dd {
+                        float: left;
+                        margin-top: 5px;
+                        font-size: 12px;
+                        color: #999;
+                    }
+
+                    .main .help_peer_con .question_wrap .question_box dl .question_person {
+                        padding-right: 10px;
+                    }
+
+                        .main .help_peer_con .question_wrap .question_box dl .question_person em {
+                            display: inline-block;
+                            vertical-align: middle;
+                            margin-right: 20px;
+                            font-style: normal;
+                            padding-right: 3px;
+                            color: #4ea0bc;
+                            width: 54px;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            cursor: pointer;
+                        }
+
+                        .main .help_peer_con .question_wrap .question_box dl .question_person .question_list {
+                            display: inline-block;
+                            width: 250px;
+                            font-size: 14px;
+                            color: #333;
+                            vertical-align: middle;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            overflow: hidden;
+                        }
+
+                    .main .help_peer_con .question_wrap .question_box dl .howlong .icon-time {
+                        font-size: 16px;
+                        color: #a4d9eb;
+                        padding-right: 3px;
+                    }
+
+                    .main .help_peer_con .question_wrap .question_box dl .answer_it {
+                        width: 67px;
+                        height: 22px;
+                        line-height: 22px;
+                        text-align: center;
+                        color: #2b81a9;
+                        float: right;
+                        border: 1px solid #e9e9e9;
+                    }
+
+                .main .help_peer_con .question_wrap .question_box p {
+                    margin: 0 10px;
+                    font-size: 14px;
+                    color: #333;
+                    line-height: 24px;
+                    float: left;
+                }
+
+    .main .questions_tab_con {
+        height: 42px;
+        border-bottom: 1px solid #eee;
+    }
+
+        .main .questions_tab_con h3 {
+            height: 42px;
+            line-height: 42px;
+            float: left;
+            font-size: 14px;
+            color: #999;
+            margin-left: 20px;
+        }
+
+            .main .questions_tab_con h3 span {
+                color: #2b81a9;
+                display: inline-block;
+                margin-right: 15px;
+            }
+
+        .main .questions_tab_con .sort {
+            float: right;
+            margin-right: 20px;
+            position: relative;
+        }
+
+            .main .questions_tab_con .sort .sort_list_label {
+                height: 37px;
+                line-height: 37px;
+                font-size: 14px;
+                color: #666;
+                cursor: pointer;
+            }
+
+                .main .questions_tab_con .sort .sort_list_label .icon-caret-down {
+                    padding-left: 10px;
+                }
+
+            .main .questions_tab_con .sort ul {
+                position: absolute;
+                border: 1px solid #eee;
+                background: #fff;
+                z-index: 999;
+                top: 36px;
+                display: none;
+            }
+
+                .main .questions_tab_con .sort ul li {
+                    font-size: 14px;
+                    color: #a6a9ac;
+                    height: 32px;
+                    width: 80px;
+                    line-height: 32px;
+                    border-bottom: 1px solid #eee;
+                    text-align: center;
+                    margin: 0 10px;
+                    float: left;
+                    cursor: pointer;
+                    margin-bottom: -1px;
+                }
+
+                .main .questions_tab_con .sort ul .arrow {
+                    position: absolute;
+                    width: 15px;
+                    height: 9px;
+                    background: url(//csdnimg.cn/release/ask/assets/arrow-686b26766925813bb1e79fb500b382da.png);
+                    top: -8px;
+                    left: 65px;
+                    border: 0;
+                }
+
+            .main .questions_tab_con .sort:hover ul {
+                display: block;
+            }
+
+    .main .questions_count {
+        height: 37px;
+        border-bottom: 1px solid #eee;
+    }
+
+        .main .questions_count p {
+            font-size: 14px;
+            height: 37px;
+            line-height: 37px;
+            float: left;
+            margin-left: 20px;
+            color: #999;
+        }
+
+            .main .questions_count p em {
+                font-style: normal;
+                color: #2b81a9;
+                padding-right: 13px;
+            }
+
+        .main .questions_count .sort {
+            float: right;
+            margin-right: 20px;
+            position: relative;
+        }
+
+            .main .questions_count .sort .sort_list_label {
+                height: 37px;
+                line-height: 37px;
+                font-size: 14px;
+                color: #666;
+                cursor: pointer;
+            }
+
+                .main .questions_count .sort .sort_list_label .icon-caret-down {
+                    padding-left: 10px;
+                }
+
+            .main .questions_count .sort ul {
+                position: absolute;
+                border: 1px solid #eee;
+                background: #fff;
+                z-index: 999;
+                top: 36px;
+                display: none;
+            }
+
+                .main .questions_count .sort ul li {
+                    font-size: 14px;
+                    color: #a6a9ac;
+                    height: 32px;
+                    width: 80px;
+                    line-height: 32px;
+                    border-bottom: 1px solid #eee;
+                    text-align: center;
+                    margin: 0 10px;
+                    float: left;
+                    cursor: pointer;
+                    margin-bottom: -1px;
+                }
+
+                .main .questions_count .sort ul .arrow {
+                    position: absolute;
+                    width: 15px;
+                    height: 9px;
+                    background: url(//csdnimg.cn/release/ask/assets/arrow-686b26766925813bb1e79fb500b382da.png);
+                    top: -8px;
+                    left: 65px;
+                    border: 0;
+                }
+
+            .main .questions_count .sort:hover ul {
+                display: block;
+            }
+
+    .main .questions_detail_con {
+        margin: 0 20px;
+        position: relative;
+    }
+
+        .main .questions_detail_con .q_time {
+            font-size: 12px;
+            color: #999;
+            margin-top: 24px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+            .main .questions_detail_con .q_time b {
+                font-size: 15px;
+                color: #999;
+                padding-left: 20px;
+            }
+
+                .main .questions_detail_con .q_time b a {
+                    display: inline-block;
+                    width: 43px;
+                    height: 18px;
+                    line-height: 18px;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+
+                    .main .questions_detail_con .q_time b a:hover {
+                        text-decoration: none;
+                    }
+
+        .main .questions_detail_con dl {
+            margin: 0;
+            padding: 0;
+        }
+
+            .main .questions_detail_con dl dt {
+                font-size: 22px;
+                color: #333;
+                font-weight: normal;
+                margin-bottom: 10px;
+                width: 760px;
+            }
+
+                .main .questions_detail_con dl dt a {
+                    color: #333;
+                }
+
+            .main .questions_detail_con dl dd {
+                color: #666;
+                font-size: 14px;
+                line-height: 20px;
+                width: 760px;
+                word-break: break-all;
+                word-wrap: break-word;
+            }
+
+        .main .questions_detail_con .tags {
+            overflow: hidden;
+        }
+
+            .main .questions_detail_con .tags a {
+                background: #f3f3f3;
+                border-radius: 10px;
+                display: block;
+                float: left;
+                line-height: 14px;
+                margin: 10px 10px 10px 0;
+                padding: 3px 10px;
+                color: #666;
+            }
+
+                .main .questions_detail_con .tags a:hover {
+                    text-decoration: none;
+                    background: #cc0000;
+                    color: #fff;
+                }
+
+        .main .questions_detail_con .answer_num {
+            width: 50px;
+            height: 50px;
+            background: #a0d56d;
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-radius: 3px;
+            font-size: 14px;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+        }
+
+            .main .questions_detail_con .answer_num span {
+                display: block;
+                float: left;
+                font-size: 20px;
+                height: 30px;
+                line-height: 30px;
+                width: 50px;
+            }
+
+        .main .questions_detail_con .disable_color {
+            background: #cdcfdb;
+        }
+
+    .main .share_bar_con {
+        height: 30px;
+        background: #f3f3f3;
+        margin: 5px 10px;
+    }
+
+    .main .share_bar_con {
+        height: 30px;
+        background: #f3f3f3;
+        margin: 5px 10px;
+    }
+
+        .main .share_bar_con em {
+            font-style: normal;
+            color: #999;
+        }
+
+        .main .share_bar_con .approve {
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            margin-left: 13px;
+            padding-left: 15px;
+            background: url(//csdnimg.cn/release/ask/assets/han_icon-c0c775772492a8866c5ab3b47f56bb09.png) left center no-repeat;
+            color: #999;
+            float: left;
+        }
+
+        .main .share_bar_con .focusit {
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            float: right;
+            margin-right: 15px;
+        }
+
+        .main .share_bar_con .interval {
+            height: 30px;
+            width: 35px;
+            line-height: 30px;
+            color: #cdcdcd;
+            display: block;
+            float: right;
+            text-align: center;
+        }
+
+        .main .share_bar_con .collection {
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            float: right;
+        }
+
+        .main .share_bar_con .share {
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            float: right;
+        }
+
+        .main .share_bar_con .browse {
+            float: right;
+            height: 30px;
+            line-height: 30px;
+        }
+
+    .main .persion_article .mod_technology_hot_person .technology_hot_person {
+        width: 298px;
+        border: 1px solid #f0f0f0;
+        background: #fff;
+    }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .technology_hot {
+            overflow: hidden;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .technology_hot h3 {
+                float: left;
+                height: 44px;
+                line-height: 44px;
+                font-size: 16px;
+                color: #333;
+                font-family: 'microsoft yahei';
+                padding: 0;
+                margin: 0;
+                text-indent: 19px;
+                font-weight: normal;
+            }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .technology_hot a {
+                float: right;
+                margin-right: 20px;
+                line-height: 44px;
+                color: #666;
+                font-size: 14px;
+                text-decoration: none;
+            }
+
+            /*����������   2015-6-4 liwz*/
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .technology_hot .hot_p {
+                height: 44px;
+                line-height: 44px;
+                font-size: 18px;
+                color: #428bca;
+                font-family: 'microsoft yahei';
+            }
+
+                .main .persion_article .mod_technology_hot_person .technology_hot_person .technology_hot .hot_p:hover {
+                    color: #cc1a21;
+                }
+
+    .main .person_article .mod_technology_hot_person .technology_hot_person .technology_hot .hot_p:hover {
+        color: #be1a21;
+    }
+
+    .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list {
+        margin: 0;
+        padding: 10px 20px;
+        position: relative;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .img {
+            float: left;
+            margin-right: 18px;
+        }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list dt {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list dt a {
+                color: #2b81a9;
+            }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list dd {
+            font-size: 12px;
+            color: #999;
+            margin-left: 70px;
+            word-break: break-all;
+            position: relative;
+            line-height: 24px;
+        }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list dd .dot {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                padding: 0 10px 3px 10px;
+                background: #fff;
+            }
+
+        /*.main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list dd:after{
+    display: none;
+    position: absolute;
+    content:'...';
+    bottom:0;
+    right:0;
+    padding:0 10px 0 15px;
+    background: #fff;
+}*/
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotBtn,
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotTime {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotBtn i,
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotTime i {
+                margin-right: 5px;
+            }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .hotTime {
+            color: #999;
+        }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn {
+            position: absolute;
+            top: 7px;
+            right: 20px;
+            width: 55px;
+            height: 22px;
+            line-height: 22px;
+            display: block;
+            background-color: #ececec;
+            float: left;
+            text-decoration: none;
+        }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn span {
+                line-height: 22px;
+                display: block;
+                font-size: 12px;
+                color: #4c4c4c;
+                text-align: center;
+                font-family: 'microsoft yahei';
+            }
+
+                .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn span i {
+                    margin-right: 5px;
+                }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn strong {
+                display: none;
+                background-color: #c7c7c7;
+                line-height: 22px;
+                font-size: 12px;
+                color: #fff;
+                text-align: center;
+                font-family: 'microsoft yahei';
+                font-weight: normal;
+            }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_btn b {
+                display: none;
+                background-color: #9e9e9e;
+                line-height: 22px;
+                font-size: 12px;
+                color: #fff;
+                text-align: center;
+                font-family: 'microsoft yahei';
+                font-weight: normal;
+            }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel span {
+            display: none;
+        }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel strong {
+            display: block;
+        }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel:hover span {
+            display: none;
+        }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel:hover strong {
+            display: none;
+        }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list .focus_cancel:hover b {
+            display: block;
+        }
+
+    .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box {
+        padding: 20px;
+        font-size: 14px;
+        color: #999;
+    }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_text {
+            margin-bottom: 20px;
+        }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_btn {
+            margin-bottom: 10px;
+        }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_btn button {
+                background: #a0d569;
+            }
+
+                .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_btn button:hover {
+                    opacity: 0.9;
+                }
+
+        .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_info {
+            text-align: right;
+        }
+
+            .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_info a {
+                font-size: 14px;
+                color: #2b81a9;
+            }
+
+.popover.bottom .arrow:after {
+    border-bottom-color: #ffffff;
+    border-top-width: 0;
+    content: " ";
+    margin-left: -7px;
+    top: 1px;
+}
+
+.popover .arrow:after {
+    border-width: 7px;
+    content: "";
+}
+
+.popover.bottom .arrow {
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+    border-width: 1px 7px 7px;
+    left: 50%;
+    margin-left: -8px;
+    top: -8px;
+}
+
+.main .questions_tab_con ul li a:link,
+.main .questions_tab_con ul li a:visited,
+.main .questions_tab_con ul li a:hover,
+.main .questions_tab_con ul li a:focus {
+    color: #656565;
+}
+
+.main .questions_tab_con ul .cur_q a {
+    color: #333 !important;
+    font-size: 18px;
+}
+
+.main .questions_detail_con dl dt a:hover {
+    color: #be1a21;
+}
+
+.main .help_peer_con .question_box p a:hover {
+    color: #be1a21;
+}
+
+.main .persion_article .mod_about_teacher .answer_list ul li a:hover {
+    color: #be1a21;
+}
+
+.main .persion_article .mod_answer_ing .mod_answer #scrolldiv .scrollcontent a:hover {
+    color: #be1a21;
+}
+
+.main .persion_article .mod_technology_hot_person .technology_hot_person .technology_hot a:hover {
+    color: #2b81a9;
+}
+
+.main .persion_article .mod_answer_ing .mod_answer #scrolldiv .scrollcontent .user_name:hover {
+    color: #2b81a9;
+}
+
+.main .persion_article .mod_technology_hot_person .technology_hot_person .img_text_list dt a:hover {
+    color: #2b81a9;
+}
+
+.main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_info a {
+    color: #428bca;
+}
+
+    .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_info a:hover {
+        color: #2b81a9;
+    }
+
+.main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_btn .btn {
+    background-color: #64b1cb !important;
+}
+
+    .main .persion_article .mod_technology_hot_person .technology_hot_person .info_box .info_btn .btn:hover {
+        background-color: #1b92b9 !important;
+    }
+
+.main .persional_property .second_nav_con .second_tips dd.ask_tips .ask_tips_box:hover {
+    /*���д���Ҫ���ʵĴ�ť�������*/
+    background-color: #1b92b9;
+}
+
+.main .questions_detail_con .q_time .from {
+    color: #999;
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 22px;
+}
+
+    .main .questions_detail_con .q_time .from a i {
+        margin-left: 5px;
+        color: #666;
+        font-size: 18px;
+        vertical-align: middle;
+    }
+
+/*֪ʶ��*/
+.main .persion_article .mod_answer_ing .mod_answer .relate_lib_list {
+    margin: 10px;
+    border-bottom: dotted 1px #c4c4c4;
+    padding: 10px 0;
+}
+
+    .main .persion_article .mod_answer_ing .mod_answer .relate_lib_list:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    .main .persion_article .mod_answer_ing .mod_answer .relate_lib_list dt {
+        width: 60px;
+        height: 60px;
+        float: left;
+        border: solid 1px #e9e9e9;
+    }
+
+        .main .persion_article .mod_answer_ing .mod_answer .relate_lib_list dt img {
+            height: 58px;
+            width: 58px;
+        }
+
+    .main .persion_article .mod_answer_ing .mod_answer .relate_lib_list dd {
+        margin-left: 70px;
+    }
+
+        .main .persion_article .mod_answer_ing .mod_answer .relate_lib_list dd h5 a {
+            font-size: 12px;
+            color: #333;
+            font-weight: bold !important;
+        }
+
+            .main .persion_article .mod_answer_ing .mod_answer .relate_lib_list dd h5 a:hover {
+                color: #2f649a;
+            }
+
+.recruit .relate_lib_list dd p {
+    padding-top: 10px;
+}
+
+.main .persion_article .mod_answer_ing .mod_answer .relate_lib_list dd p label {
+    font-size: 12px;
+    color: #666;
+    font-weight: normal !important;
+    font-style: normal;
+}
+
+    .main .persion_article .mod_answer_ing .mod_answer .relate_lib_list dd p label span, .relate_lib_list dd p label i, .relate_lib_list dd p label em {
+        font-weight: normal !important;
+        font-style: normal;
+    }
+
+    .main .persion_article .mod_answer_ing .mod_answer .relate_lib_list dd p label span {
+        margin-right: 3px;
+    }
+
+    .main .persion_article .mod_answer_ing .mod_answer .relate_lib_list dd p label i {
+        margin: 0 5px;
+    }

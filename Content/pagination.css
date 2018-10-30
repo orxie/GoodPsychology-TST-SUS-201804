@@ -1,0 +1,50 @@
+#page {
+	padding: 10px;
+	clear: both;
+	display: block;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+#page a {
+	border: 1px solid #D9D9D9;
+	color: #AAA;
+	padding: 7px 12px 7px 12px;
+	margin: 0 2px 0 2px;
+	text-decoration: none;
+	background: #fff;
+	display: inline;
+	border-radius: 6px;
+	position: relative;
+	top: -1px;
+}
+
+#page a:hover {
+	border: 1px solid #279F32;
+	color: #fff;
+	background: #3AB145;
+	padding: 7px 12px 7px 12px;
+	margin: 0 2px 0 2px;
+	display: inline;
+	border-radius: 6px;
+}
+
+#page .on,
+#page strong {
+	color: #fff;
+	padding: 7px 12px 7px 12px;
+	background: #3AB145;
+	border: 1px solid #279F32;
+	display: inline;
+	text-decoration: none;
+	border-radius: 6px;
+	position: relative;
+	top: -1px;
+}
+
+#page span {
+	position: relative;
+	top: 15px;
+	display: block;
+	color: #a7a7a7;
+}

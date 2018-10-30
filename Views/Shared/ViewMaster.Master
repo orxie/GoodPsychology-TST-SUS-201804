@@ -1,0 +1,179 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <script src="<%=Url.Content("../../Scripts/jquery.js")%>"></script>
+	<script src="<%=Url.Content("../../Scripts/bootstrap.js") %>"></script>
+	<link rel="stylesheet" type="text/css" href="<%=Url.Content("../../Content/bootstrap.css") %>"/>
+	<link rel="stylesheet" type="text/css" href="<%=Url.Content("../../Content/common.css") %>"/>
+	<link rel="stylesheet" type="text/css" href="<%=Url.Content("../../Content/self.css") %>"/>
+    <link href="<%=Url.Content("../../Content/animate.css") %>" rel="stylesheet" />
+</head>
+<body class="BodyColor" > 
+    <div>
+        <nav class="bgColor bg-primary visible-md visible-lg" role="navigation">
+			<div class="container">
+	            <div class="rows bgColor">
+					<!-- 左侧导航 -->
+					<ul class="nav navbar-nav self-color-w">
+						<li>
+							<a href="javascript:void(0);">
+								<span class="glyphicon glyphicon-th" aria-hidden="true"></span> 导航
+							</a>
+						</li>
+						<%--<li>
+							<a href="javascript:void(0);">
+								<span class="glyphicon glyphicon-adjust" aria-hidden="true"></span> 发现
+							</a>
+						</li>--%>
+						<li>
+							<a href="javascript:void(0);">
+								<span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 手机版
+							</a>
+						</li>
+					</ul>
+					<!-- 右侧导航 -->
+					<ul class="nav navbar-nav navbar-right self-color-w">
+						<li>
+							<a href="<%=Url.Content("~/Login/Index") %>">
+								<span class="glyphicon glyphicon-user" aria-hidden="true"></span> <%=Session["CurrentUser"]!=null?Session["CurrentUser"].ToString():"登录" %>
+							</a>
+						</li>
+						<!-- 注册 -->
+						<li>
+							<a href="<%=Url.Content("~/Signup/Index") %>">
+								<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> 注册
+							</a>
+						</li>
+					</ul>
+					<!-- 搜索框 -->
+					<div class="navbar-form navbar-right form-inline center-block">
+						<div class="input-group">
+							<!-- 输入框 -->
+							<input type="text" class="form-control" placeholder="请输入搜索内容..." />
+							<!-- 按钮 -->
+							<span class="input-group-btn">
+                            <button type="submit" class="btn btn-info">
+                                <span class="glyphicon glyphicon-search"></span>
+							</button>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="nav-bg" style="border-bottom: 1px solid #eee;">
+			<div class="container">
+			 	<div class="navbar-header nav-title hidden-md hidden-lg">
+	                <button type="button" class="navbar-toggle collapsed nav-button-bgcolor" data-toggle="collapse" data-target="#nav-all" aria-expanded="false">
+	                	<span class="sr-only">导航</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                <a href="javascript:void(0);" class="navbar-brand nav-brand-color">心理佳</a>
+	            </div>
+				<div class="row collapse navbar-collapse" id="nav-all">
+					<div class="navbar-left hidden-sm hidden-xs" style="padding: 20px 0;">
+						<img src="./img/logo.gif" width="267.6px" height="67.2px">
+					</div>
+
+					<nav class="navbar-right self-margin">
+						<ul class="nav navbar-nav self-color-b">
+							<li role="presentation" class="active">
+								<a href="<%=Url.Content("~/Home/index") %>">首页</a>
+							</li>
+							<li role="presentation">
+								<a href="<%=Url.Content("~/Evaluation/index") %>">心理测评</a>
+							</li>
+							<li role="presentation">
+								<a href="<%=Url.Content("~/Refer/index") %>">心理咨询</a>
+							</li>
+							<li role="presentation">
+								<a href="<%=Url.Content("~/Message/index") %>">好文推送</a>
+							</li>
+							<li role="presentation">
+								<a href="<%=Url.Content("~/Radio/index") %>">减压电台</a>
+							</li>
+							<li role="presentation">
+								<a href="<%=Url.Content("~/Course/index") %>">心路历程</a>
+							</li>
+							<li role="presentation">
+								<a href="<%=Url.Content("~/Video/index") %>">在线视频</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+
+        </asp:ContentPlaceHolder>
+        <footer class="content-block" style="background: #f0f0f0; height: 200px;">
+			<div class="container">
+				<div class="row footer-padding">
+					<div class="center-block">
+						<ul class="col-md-3" style="padding: 0;">
+							<li>
+								<h4><b>我是用户</b></h4>
+							</li>
+							<li><a href="javascript:void(0);">免费注册</a></li>
+							<li><a href="javascript:void(0);">初次咨询必读</a></li>
+							<li><a href="javascript:void(0);">预约流程</a></li>
+							<li><a href="javascript:void(0);">快速咨询</a></li>
+							<li><a href="javascript:void(0);">更多常见问题</a></li>
+						</ul>
+						<ul class="col-md-3" style="padding: 0;">
+							<li>
+								<h4><b>我是咨询师</b></h4>
+							</li>
+							<li><a href="javascript:void(0);">咨询师入驻</a></li>
+							<li><a href="javascript:void(0);">咨询师国家职业标准</a></li>
+							<li><a href="javascript:void(0);">咨询工作流程</a></li>
+							<li><a href="javascript:void(0);">咨询师指南</a></li>
+						</ul>
+						<ul class="col-md-3" style="padding: 0;">
+							<li>
+								<h4><b>关于</b></h4>
+							</li>
+							<li><a href="javascript:void(0);">介绍</a></li>
+							<li><a href="javascript:void(0);">联系我们</a></li>
+							<li><a href="javascript:void(0);">法律生命</a></li>
+							<li><a href="javascript:void(0);">网站地图</a></li>
+							<li><a href="javascript:void(0);">公益&amp;活动</a></li>
+						</ul>
+						<ul class="col-md-3" style="padding: 0;">
+							<li>
+								<h4><b>手机</b></h4>
+							</li>
+							<li>微信扫码，您身边的心理专家</li>
+							<li>
+								 <img src="./img/logo.png" style="width:7em;height:7em;" /> 
+							</li>
+						</ul>
+					</div>
+					<!-- 版权信息 -->
+					<div class="footer-info" style="display: block; clear: both;">
+						<a href="javascript:void(0);">粤公网安备44040202000105号</a>
+						<a href="javascript:void(0);">粤ICP备08126023号525</a>
+						<i>&copy;&nbsp;2007-2018&nbsp;XLJ.CN&nbsp;版权所有</i>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js/wow.js" ></script>
+		<script>
+		    if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+		        new WOW().init();
+		    };
+		</script>
+    </div>
+</body>
+</html>
+

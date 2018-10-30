@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/**
+ * @authors 张明新
+ * @date    2018-03-26 17:22:57
+ * @version $Id$
+ */
+	/*bootstrap属性修改*/
+	.page-header {
+	  padding-bottom: 9px;
+	  margin: 20px 0 20px;
+	  border-bottom: 1px solid #eee;
+	}
+
+	/*content系列*/
+	.content-block{
+		background: #fff;
+		display: block;
+		border-radius: 10px;
+		margin-top: 20px;
+		height: auto;
+		overflow: hidden;
+		border: 1px solid #eee;
+	}
+	.content-padding{
+		padding: 0px 10px;
+	}
+	/*医师选中*/
+	.content-center{
+		text-align: center;
+		color: #999;
+	}
+	.content-active:hover{
+		color: #000;
+		height: 11em;
+		border: 1px solid #EEEEEE;
+		overflow: hidden;
+		border-radius: 5px;
+	}
+	.content-active img {
+		background: #fff;
+		filter: alpha(Opacity=80);
+	    -moz-opacity: .8;
+	    opacity: .8;
+		overflow: hidden;
+		width: 100px;
+		height: 100px;
+	}
+	.content-active .thumbnail {
+		display: block;
+		/*padding: 4px;*/
+		margin-bottom: 20px;
+		line-height: 1px;
+		background-color: #fff;
+		border: none;
+		/*border-radius: 4px;*/
+		-webkit-transition: border .2s ease-in-out;
+		   -o-transition: border .2s ease-in-out;
+		      transition: border .2s ease-in-out;
+	}
+	.content-active a:hover h5{
+		font-size: 16px;
+		color: #000;
+		list-style-type: none;
+	}
+
+	/*banner系列*/
+	.banner-radius{
+		border-radius: 10px 0 0 10px;
+	}
+
+	/*banner 右侧*/
+	.banner-right{
+		display: block;
+		text-align: center;
+		vertical-align: middle;
+		margin-top: 30px;
+		color: #666;
+	}
+	/*推荐*/
+	.recommend-counselor {
+		text-align: left; 
+		padding: 10px 186px 10px 10px; 
+		margin: 10px 0;
+	}
